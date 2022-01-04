@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'idea'
+    id "io.qameta.allure" version "2.9.6"
+}
+
+repositories {
+     jcenter()
+}
+
+dependencies {
+	implementation 'org.seleniumhq.selenium:selenium-api:4.0.0'
+	implementation 'org.seleniumhq.selenium:selenium-server:3.141.59'
+	implementation 'org.seleniumhq.selenium:selenium-chrome-driver:4.0.0'
+	implementation 'org.seleniumhq.selenium:selenium-remote-driver:4.0.0'
+	implementation 'org.seleniumhq.selenium:selenium-support:4.0.0'
+	implementation 'org.seleniumhq.selenium:selenium-firefox-driver:4.0.0'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.0.3'
+    implementation group: 'org.testng', name: 'testng', version: '7.4.0'
+	implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.13.3'
+	runtimeOnly group: 'org.aspectj', name: 'aspectjweaver', version: '1.6.10'
+}
+
+test {
+     useTestNG() {
+        useDefaultListeners = true
+        suites 'src/main/resources/testng.xml'
+    }
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+        exceptionFormat = 'full'
+    }
+	ignoreFailures = true
+	reports.html.enabled = false
+}
