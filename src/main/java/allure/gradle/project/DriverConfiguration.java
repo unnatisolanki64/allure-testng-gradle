@@ -21,7 +21,7 @@ public class DriverConfiguration {
 		ChromeOptions chromeBrowser = new ChromeOptions();
 		chromeBrowser.addArguments("--no-sandbox");
 		chromeBrowser.addArguments("--disable-dev-shm-usage");
-		// chromeBrowser.addArguments("--headless");
+		chromeBrowser.addArguments("--headless");
 		chromeBrowser.addArguments("start-maximized");
 		return chromeBrowser;
 	}
