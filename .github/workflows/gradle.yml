@@ -24,7 +24,7 @@ jobs:
       - name: Run tests
         run: |
           chmod +x gradlew
-          ./gradlew test -Dheadless=true
+          gradle clean test -Dheadless=true
       - name: Deploy report page
         uses: peaceiris/actions-gh-pages@v3
         with:
