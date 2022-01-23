@@ -32,4 +32,8 @@ Using Allure reporting you can generate different reports along with detailed te
 
 ![Screenshot 2022-01-10 203558](https://user-images.githubusercontent.com/15075144/148791613-ea7d1251-2f9b-4869-9625-70390b1259d9.jpg)
 
+## Report on Git Actions
 
+Using Git actions, We can configure and publish this result on Github pages. Checkout [this](https://github.com/unnatisolanki64/allure-testng-gradle/blob/main/.github/workflows/gradle.yml) configuration for workflow.
+
+Result of workflow: https://unnatisolanki64.github.io/allure-testng-gradle
