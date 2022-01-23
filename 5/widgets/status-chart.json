@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b37b609c308aeaca",
+  "name" : "baseMethodConfiguration",
+  "time" : {
+    "start" : 1642943933292,
+    "stop" : 1642943933297,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2a303d4952fdc981",
+  "name" : "validateBasicFields",
+  "time" : {
+    "start" : 1642943933346,
+    "stop" : 1642943933348,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

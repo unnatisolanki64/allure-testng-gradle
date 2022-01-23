@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Testing Allure Report",
+    "children" : [ {
+      "name" : "Regression",
+      "children" : [ {
+        "name" : "allure.gradle.project.TestCase",
+        "children" : [ {
+          "name" : "baseMethodConfiguration",
+          "uid" : "b37b609c308aeaca",
+          "parentUid" : "d93ce168d8e076ea67025ddf189b407e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1642943933292,
+            "stop" : 1642943933297,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validateBasicFields",
+          "uid" : "2a303d4952fdc981",
+          "parentUid" : "d93ce168d8e076ea67025ddf189b407e",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1642943933346,
+            "stop" : 1642943933348,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d93ce168d8e076ea67025ddf189b407e"
+      } ],
+      "uid" : "e70c8ecfbfbdbd647208436efd6100d0"
+    } ],
+    "uid" : "c194d2bf2fffb36a9c7655967cb31fd5"
+  } ],
+  "name" : "suites"
+}

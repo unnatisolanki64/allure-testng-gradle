@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az203-796",
+    "children" : [ {
+      "name" : "2711@fv-az203-796.Test worker(1)",
+      "children" : [ {
+        "name" : "validateBasicFields",
+        "uid" : "2a303d4952fdc981",
+        "parentUid" : "98916d18744edd7d5ded21a736b80a84",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1642943933346,
+          "stop" : 1642943933348,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "baseMethodConfiguration",
+        "uid" : "b37b609c308aeaca",
+        "parentUid" : "98916d18744edd7d5ded21a736b80a84",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642943933292,
+          "stop" : 1642943933297,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98916d18744edd7d5ded21a736b80a84"
+    } ],
+    "uid" : "653598a814bc3713e01ce0379fb9991e"
+  } ],
+  "name" : "timeline"
+}

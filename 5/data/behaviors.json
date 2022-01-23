@@ -1,0 +1,43 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "baseMethodConfiguration",
+    "uid" : "b37b609c308aeaca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642943933292,
+      "stop" : 1642943933297,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "EPIC-001",
+    "children" : [ {
+      "name" : "Feature ID: FEA-1",
+      "children" : [ {
+        "name" : "Story ID: STR-001",
+        "children" : [ {
+          "name" : "validateBasicFields",
+          "uid" : "2a303d4952fdc981",
+          "parentUid" : "b7bcec051dd11433857b063a28b0ff83",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1642943933346,
+            "stop" : 1642943933348,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b7bcec051dd11433857b063a28b0ff83"
+      } ],
+      "uid" : "80dd61e2fbb6cf6fa32683c1487dc1e7"
+    } ],
+    "uid" : "622ad4ecf948beec97ad116824b64c77"
+  } ],
+  "name" : "behaviors"
+}
