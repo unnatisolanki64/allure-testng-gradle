@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Testing Allure Report" duration-ms="6103" started-at="2022-01-23T13:21:55 UTC" finished-at="2022-01-23T13:22:01 UTC">
+  <suite name="Testing Allure Report" duration-ms="4821" started-at="2022-01-23T13:28:53 UTC" finished-at="2022-01-23T13:28:57 UTC">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="6103" started-at="2022-01-23T13:21:55 UTC" finished-at="2022-01-23T13:22:01 UTC">
+    <test name="Regression" duration-ms="4821" started-at="2022-01-23T13:28:53 UTC" finished-at="2022-01-23T13:28:57 UTC">
       <class name="allure.gradle.project.TestCase">
-        <test-method status="PASS" signature="baseMethodConfiguration()[pri:0, instance:allure.gradle.project.TestCase@5e76a2bb]" name="baseMethodConfiguration" is-config="true" duration-ms="3619" started-at="2022-01-23T13:21:55 UTC" finished-at="2022-01-23T13:21:59 UTC">
+        <test-method status="PASS" signature="baseMethodConfiguration()[pri:0, instance:allure.gradle.project.TestCase@5942ee04]" name="baseMethodConfiguration" is-config="true" duration-ms="4039" started-at="2022-01-23T13:28:53 UTC" finished-at="2022-01-23T13:28:57 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseMethodConfiguration -->
-        <test-method status="PASS" signature="validateBasicFields()[pri:0, instance:allure.gradle.project.TestCase@5e76a2bb]" name="validateBasicFields" duration-ms="2236" started-at="2022-01-23T13:21:59 UTC" finished-at="2022-01-23T13:22:01 UTC">
+        <test-method status="PASS" signature="validateBasicFields()[pri:0, instance:allure.gradle.project.TestCase@5942ee04]" name="validateBasicFields" duration-ms="468" started-at="2022-01-23T13:28:57 UTC" finished-at="2022-01-23T13:28:57 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBasicFields -->
-        <test-method status="PASS" signature="afterMethodConfiguration()[pri:0, instance:allure.gradle.project.TestCase@5e76a2bb]" name="afterMethodConfiguration" is-config="true" duration-ms="75" started-at="2022-01-23T13:22:01 UTC" finished-at="2022-01-23T13:22:01 UTC">
+        <test-method status="PASS" signature="afterMethodConfiguration()[pri:0, instance:allure.gradle.project.TestCase@5942ee04]" name="afterMethodConfiguration" is-config="true" duration-ms="81" started-at="2022-01-23T13:28:57 UTC" finished-at="2022-01-23T13:28:57 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodConfiguration -->
