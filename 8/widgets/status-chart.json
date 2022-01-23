@@ -1,0 +1,11 @@
+[ {
+  "uid" : "b8d7640d1771dc17",
+  "name" : "validateBasicFields",
+  "time" : {
+    "start" : 1642945070444,
+    "stop" : 1642945070830,
+    "duration" : 386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,131 @@
+{
+  "uid" : "b8d7640d1771dc17",
+  "name" : "validateBasicFields",
+  "fullName" : "allure.gradle.project.TestCase.validateBasicFields",
+  "historyId" : "b941b34463b7f4442ce9f1eb82f281c3",
+  "time" : {
+    "start" : 1642945070444,
+    "stop" : 1642945070830,
+    "duration" : 386
+  },
+  "description" : "This is the description of the test Scenario",
+  "descriptionHtml" : "<p>This is the description of the test Scenario</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "baseMethodConfiguration",
+    "time" : {
+      "start" : 1642945066172,
+      "stop" : 1642945070270,
+      "duration" : 4098
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This is the description of the test Scenario",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "This is steps of the Test Scenario",
+      "time" : {
+        "start" : 1642945070813,
+        "stop" : 1642945070827,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodConfiguration",
+    "time" : {
+      "start" : 1642945070844,
+      "stop" : 1642945070919,
+      "duration" : 75
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "allure.gradle.project.TestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "allure.gradle.project.TestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateBasicFields"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testing Allure Report"
+  }, {
+    "name" : "suite",
+    "value" : "Regression"
+  }, {
+    "name" : "subSuite",
+    "value" : "allure.gradle.project.TestCase"
+  }, {
+    "name" : "host",
+    "value" : "fv-az152-443"
+  }, {
+    "name" : "thread",
+    "value" : "2745@fv-az152-443.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "EPIC-001"
+  }, {
+    "name" : "feature",
+    "value" : "Feature ID: FEA-1"
+  }, {
+    "name" : "story",
+    "value" : "Story ID: STR-001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8d7640d1771dc17.json",
+  "parameterValues" : [ ]
+}

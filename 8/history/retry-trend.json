@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 8,
+  "reportUrl" : "https://unnatisolanki64.github.io/allure-testng-gradle/8/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+} ]

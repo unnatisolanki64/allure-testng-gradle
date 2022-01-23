@@ -1,0 +1,22 @@
+{
+  "b941b34463b7f4442ce9f1eb82f281c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b8d7640d1771dc17",
+      "reportUrl" : "https://unnatisolanki64.github.io/allure-testng-gradle/8//#testresult/b8d7640d1771dc17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642945070444,
+        "stop" : 1642945070830,
+        "duration" : 386
+      }
+    } ]
+  }
+}
