@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  viaphoton-run:
+  selenium-run:
     name: medium test run
     runs-on: ubuntu-latest
     steps:
