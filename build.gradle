@@ -7,6 +7,11 @@ plugins {
 
 repositories {
      jcenter()
+     mavenCentral()
+}
+
+allure {
+    autoconfigure = true
 }
 
 dependencies {
@@ -21,6 +26,8 @@ dependencies {
 	implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.13.3'
 	runtimeOnly group: 'org.aspectj', name: 'aspectjweaver', version: '1.6.10'
 }
+
+testReportDirName = "${buildDir}/test-output"
 
 test {
      useTestNG() {
