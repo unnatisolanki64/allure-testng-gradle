@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "allure.gradle.project.TestCase",
+    "children" : [ {
+      "name" : "validateBasicFields",
+      "uid" : "b43f6149fc77c86",
+      "parentUid" : "c811aafd6bee84025798d8b04105d64b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642944119610,
+        "stop" : 1642944121828,
+        "duration" : 2218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "allure.gradle.project.TestCase"
+  } ],
+  "name" : "packages"
+}
