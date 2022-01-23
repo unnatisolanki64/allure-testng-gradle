@@ -1,0 +1,44 @@
+{
+  "9db3d90d1c0dc7e53dc459c49fc6432d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac256265882ffc84",
+      "reportUrl" : "https://unnatisolanki64.github.io/allure-testng-gradle/4//#testresult/ac256265882ffc84",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az96-506', ip: '10.1.0.64', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1025-azure', java.version: '1.8.0_322'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, start-maximized], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, start-maximized], extensions: []}}}]",
+      "time" : {
+        "start" : 1642943523659,
+        "stop" : 1642943523664,
+        "duration" : 5
+      }
+    } ]
+  },
+  "b941b34463b7f4442ce9f1eb82f281c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1cc62c6b1597388",
+      "reportUrl" : "https://unnatisolanki64.github.io/allure-testng-gradle/4//#testresult/1cc62c6b1597388",
+      "status" : "skipped",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az96-506', ip: '10.1.0.64', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1025-azure', java.version: '1.8.0_322'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, start-maximized], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, start-maximized], extensions: []}}}]",
+      "time" : {
+        "start" : 1642943523703,
+        "stop" : 1642943523704,
+        "duration" : 1
+      }
+    } ]
+  }
+}
