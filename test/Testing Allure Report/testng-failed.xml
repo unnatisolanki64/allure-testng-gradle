@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Testing Allure Report]">
+  <test thread-count="5" verbose="0" name="Regression(failed)">
+    <classes>
+      <class name="allure.gradle.project.TestCase">
+        <methods>
+          <include name="afterMethodConfiguration"/>
+          <include name="baseMethodConfiguration"/>
+          <include name="validateBasicFields"/>
+        </methods>
+      </class> <!-- allure.gradle.project.TestCase -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Allure Report] -->
